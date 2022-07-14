@@ -1,0 +1,19 @@
+{
+    "name": "alomir/hexlet-slim",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alomir\\HexletSlim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "allomir",
+            "email": "alomir@yandex.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5"
+    }
+}
